@@ -1,0 +1,93 @@
+*{
+    font-family: 'Titillium Web',sans-serif;
+    font-weight: bold;
+    margin: 0.7%;
+}
+
+body {
+    background-color: aquamarine;
+}
+
+header {
+    font-size: 48px;
+    text-align: center;
+}
+
+h1 {
+    font-size: 32px;
+    text-align: center;
+}
+
+div {
+    padding: 1%;
+}
+
+.conteiner{
+    display: flex;
+    flex-wrap: nowrap;
+    width: 100%;
+}
+
+.grupoP {
+    text-align: right;
+    width: 33%;
+    min-width: 310px;
+    border: solid grey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 1%;
+    line-height: 2;
+}
+
+.grupoM {
+    width: 66%;
+    min-width: 650px;
+    border: solid grey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 1%;
+}
+
+.grupoG {
+    width: 100%;
+    min-width: 860px;
+    text-align: right;
+    border: solid grey;
+    border-radius: 5px 5px 5px 5px;
+    padding: 1%;
+    line-height: 2;
+}
+
+.colunasinventario {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    max-width: 600px;
+}
+
+.elementosdescricao {
+    display: flex;
+    flex-direction: row;
+}
+
+.momentos {
+    display: flex;
+    flex-direction: row;
+}
+
+.nome {
+    align-items: flex-end;
+    width: 50%;
+}
+
+input[type='number']{
+    width: 40px;
+}
+
+textarea {
+    width: 100%;
+}
+
+input, select, textarea, button, label {
+    border-radius: 5px;
+    font-size: 16px;
+}
