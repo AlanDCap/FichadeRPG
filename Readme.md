@@ -1,8 +1,8 @@
 Projeto de uma ficha de RPG em html.
-O sistema de regras do RPG é desenvolvdo por mim e será implementado nas funcionalidades da página, através de JS.
+O sistema de regras do RPG é desenvolvdo por mim e será implementado nas funcionalidades da página através de JS.
 
 30/03/2022
-Inicialmente tenho apenas a estrutura HTML e CSS, falta ainda toda parte do js. 
+Inicialmente tenho apenas a estrutura HTML e CSS, falta ainda toda a parte do js. 
 
 Próximas etapas
 - Desenvolver as funções do JS para rolagem de dados.
