@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\aland\\OneDrive\\Documentos\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj": {}
+    "C:\\Users\\aland\\OneDrive\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj": {}
   },
   "projects": {
-    "C:\\Users\\aland\\OneDrive\\Documentos\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj": {
+    "C:\\Users\\aland\\OneDrive\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\aland\\OneDrive\\Documentos\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj",
+        "projectUniqueName": "C:\\Users\\aland\\OneDrive\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj",
         "projectName": "diceProbality",
-        "projectPath": "C:\\Users\\aland\\OneDrive\\Documentos\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj",
+        "projectPath": "C:\\Users\\aland\\OneDrive\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\diceProbality.csproj",
         "packagesPath": "C:\\Users\\aland\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\aland\\OneDrive\\Documentos\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\obj\\",
+        "outputPath": "C:\\Users\\aland\\OneDrive\\003 - Projetos TI\\Ficha de Sistema RPG\\Dice Probability\\diceProbality\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\aland\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -45,7 +45,8 @@
             "net47",
             "net471",
             "net472",
-            "net48"
+            "net48",
+            "net481"
           ],
           "assetTargetFallback": true,
           "warn": true,
@@ -54,7 +55,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.300\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
         }
       }
     }

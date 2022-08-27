@@ -1,9 +1,13 @@
-﻿
+﻿/*mesmo que o código gere listas até 12d6, o que será utlizado para o sistema de RPG é apenas até o 6d6.
+ * Além disso, esse código na visa ser executado sempre, mas apenas uma vez para gerar as combinações, 
+ * que servirão de base para análise das estatísticas de resultados das rolagens de dado*/
+
+
 string nomeArquivo = "Rolagens.dat";
 StreamWriter escritor = new StreamWriter(nomeArquivo, true);
 
 //geração da lista de combinações possíveis dos resultados de 2d6
-string[] d6results = { "1", "2", "3", "4", "5", "6" };
+string[] d6results = { "-1;", "0;", "0;", "1;", "1;", "2;" };
 List<string> combinations2d6 = new List<string>();
 foreach (string d in d6results)
 {
@@ -15,17 +19,17 @@ foreach (string d in d6results)
     combinations2d6.Add(d + d6results[5]);
 }
 
-//escrita no console da lista.
+//registro dos resultados em arquivo.
+escritor.WriteLine("Lista de 2d6");
 for (int i = 0; i < combinations2d6.Count; i++)
 {
     escritor.WriteLine(combinations2d6[i]);
 }
 
-escritor.WriteLine("\nFim da lista 2d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"O total de combinações é {combinations2d6.Count()}");
 Console.WriteLine("Fim da lista 2d6");
-Console.ReadKey();
 
 /*Abaixo cria-se uma nova lista para realizar a combinação dos resultados de 3d6.
 A lista combinations2d6 é adicionada inteira à lista combinations3d6, e as iterações
@@ -46,17 +50,16 @@ foreach (string d in results2d6)
     combinations3d6.Add(d + d6results[5]);
 }
 
+escritor.WriteLine("Lista de 3d6");
 for (int i = 0; i < combinations3d6.Count; i++)
 {
     escritor.WriteLine(combinations3d6[i]);
 }
 
-escritor.WriteLine("\nFim da lista 3d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"O total de combinações é {combinations3d6.Count()}");
 Console.WriteLine("Fim da lista 3d6");
-Console.ReadKey();
-
 
 //geração da lista de combinações possíveis dos resultados de 4d6
 List<string> results3d6 = new List<string>();
@@ -73,22 +76,21 @@ foreach (string d in results3d6)
     combinations4d6.Add(d + d6results[4]);
     combinations4d6.Add(d + d6results[5]);
 }
+
+escritor.WriteLine("Lista de 4d6");
 for (int i = 0; i < combinations4d6.Count; i++)
 {
     escritor.WriteLine(combinations4d6[i]);
 }
-escritor.WriteLine("\nFim da lista 4d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"O total de combinações é {combinations4d6.Count()}");
 Console.WriteLine("Fim da lista 4d6");
-Console.ReadKey();
-
 
 //geração da lista de combinações possíveis dos resultados de 5d6
 List<string> results4d6 = new List<string>();
 List<string> combinations5d6 = new List<string>();
 results4d6.AddRange(combinations4d6);
-
 
 foreach (string d in results4d6)
 {
@@ -99,16 +101,16 @@ foreach (string d in results4d6)
     combinations5d6.Add(d + d6results[4]);
     combinations5d6.Add(d + d6results[5]);
 }
+
+escritor.WriteLine("Lista de 5d6");
 for (int i = 0; i < combinations5d6.Count; i++)
 {
     escritor.WriteLine(combinations5d6[i]);
 }
-escritor.WriteLine("\nFim da lista 5d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations5d6.Count()}");
 Console.WriteLine("fim da lista 5d6");
-Console.ReadKey();
-
 
 //geração da lista de combinações possíveis dos resultados de 5d6
 List<string> results5d6 = new List<string>();
@@ -125,11 +127,13 @@ foreach (string d in results5d6)
     combinations6d6.Add(d + d6results[4]);
     combinations6d6.Add(d + d6results[5]);
 }
+
+escritor.WriteLine("Lista de 6d6");
 for (int i = 0; i < combinations6d6.Count; i++)
 {
     escritor.WriteLine(combinations6d6[i]);
 }
-escritor.WriteLine("\nFim da lista 6d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations6d6.Count()}");
 Console.WriteLine("fim da lista 6d6");
@@ -138,7 +142,7 @@ Console.WriteLine("fim da lista 6d6");
 //geração da lista de combinações possíveis dos resultados de 7d6
 List<string> results6d6 = new List<string>();
 List<string> combinations7d6 = new List<string>();
-results6d6.AddRange(combinations5d6);
+results6d6.AddRange(combinations6d6);
 
 
 foreach (string d in results6d6)
@@ -150,11 +154,13 @@ foreach (string d in results6d6)
     combinations7d6.Add(d + d6results[4]);
     combinations7d6.Add(d + d6results[5]);
 }
+
+escritor.WriteLine("Lista de 7d6");
 for (int i = 0; i < combinations7d6.Count; i++)
 {
     escritor.WriteLine(combinations7d6[i]);
 }
-escritor.WriteLine("\nFim da lista 7d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations7d6.Count()}");
 Console.WriteLine("fim da lista 7d6");
@@ -174,16 +180,16 @@ foreach (string d in results7d6)
     combinations8d6.Add(d + d6results[4]);
     combinations8d6.Add(d + d6results[5]);
 }
+
+escritor.WriteLine("Lista de 8d6");
 for (int i = 0; i < combinations8d6.Count; i++)
 {
     escritor.WriteLine(combinations8d6[i]);
 }
-escritor.WriteLine("\nFim da lista 8d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations8d6.Count()}");
 Console.WriteLine("fim da lista 8d6");
-Console.ReadKey();
-
 
 //geração da lista de combinações possíveis dos resultados de 9d6
 List<string> results8d6 = new List<string>();
@@ -200,21 +206,22 @@ foreach (string d in results8d6)
     combinations9d6.Add(d + d6results[4]);
     combinations9d6.Add(d + d6results[5]);
 }
+
+escritor.WriteLine("Lista de 9d6");
 for (int i = 0; i < combinations9d6.Count; i++)
 {
     escritor.WriteLine(combinations9d6[i]);
 }
-escritor.WriteLine("\nFim da lista 9d6");
+escritor.WriteLine("\n");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations9d6.Count()}");
 Console.WriteLine("fim da lista 9d6");
 
-
+/*
 //geração da lista de combinações possíveis dos resultados de 10d6
 List<string> results9d6 = new List<string>();
 List<string> combinations10d6 = new List<string>();
 results9d6.AddRange(combinations9d6);
-
 
 foreach (string d in results9d6)
 {
@@ -233,14 +240,11 @@ escritor.WriteLine("\nFim da lista 10d6");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations10d6.Count()}");
 Console.WriteLine("fim da lista 10d6");
-Console.ReadKey();
-
 
 //geração da lista de combinações possíveis dos resultados de 11d6
 List<string> results10d6 = new List<string>();
 List<string> combinations11d6 = new List<string>();
 results10d6.AddRange(combinations9d6);
-
 
 foreach (string d in results10d6)
 {
@@ -259,8 +263,6 @@ escritor.WriteLine("\nFim da lista 11d6");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations11d6.Count()}");
 Console.WriteLine("fim da lista 11d6");
-Console.ReadKey();
-
 
 //geração da lista de combinações possíveis dos resultados de 12d6
 List<string> results11d6 = new List<string>();
@@ -285,4 +287,3 @@ escritor.WriteLine("\nFim da lista 12d6");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations12d6.Count()}");
 Console.WriteLine("fim da lista 12d6");
-Console.ReadKey();
