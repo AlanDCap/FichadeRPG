@@ -3,6 +3,14 @@
  * que servirão de base para análise das estatísticas de resultados das rolagens de dado*/
 
 
+using diceProbality;
+int vezes;
+
+Dado dado = new Dado();
+
+Console.WriteLine(dado.D6(vezes));
+Console.ReadKey();
+
 string nomeArquivo = "Rolagens.dat";
 StreamWriter escritor = new StreamWriter(nomeArquivo, true);
 
@@ -286,4 +294,4 @@ for (int i = 0; i < combinations12d6.Count; i++)
 escritor.WriteLine("\nFim da lista 12d6");
 escritor.Flush();
 Console.WriteLine($"o total de combinações é {combinations12d6.Count()}");
-Console.WriteLine("fim da lista 12d6");
+Console.WriteLine("fim da lista 12d6");*/

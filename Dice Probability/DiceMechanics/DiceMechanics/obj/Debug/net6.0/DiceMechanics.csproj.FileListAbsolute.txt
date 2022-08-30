@@ -1,0 +1,15 @@
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\bin\Debug\net6.0\DiceMechanics.exe
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\bin\Debug\net6.0\DiceMechanics.deps.json
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\bin\Debug\net6.0\DiceMechanics.runtimeconfig.json
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\bin\Debug\net6.0\DiceMechanics.dll
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\bin\Debug\net6.0\DiceMechanics.pdb
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.csproj.AssemblyReference.cache
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.AssemblyInfoInputs.cache
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.AssemblyInfo.cs
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.csproj.CoreCompileInputs.cache
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.dll
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\refint\DiceMechanics.dll
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.pdb
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\DiceMechanics.genruntimeconfig.cache
+C:\Users\aland\OneDrive\003 - Projetos TI\Ficha de Sistema RPG\Dice Probability\DiceMechanics\DiceMechanics\obj\Debug\net6.0\ref\DiceMechanics.dll
